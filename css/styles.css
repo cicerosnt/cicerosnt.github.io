@@ -321,6 +321,15 @@ a:active {
     text-align: center;
   }
 
+  #profile {
+    flex-direction: column; /* Empilha o perfil */
+    align-items: center;
+  }
+
+  #profile h1 {
+    font-size: 1em;
+  }
+
   .profile {
     width: 100%; /* O perfil ocupa toda a largura */
     padding: 10px;
