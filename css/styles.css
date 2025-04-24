@@ -284,76 +284,63 @@ a:active {
   }
 }
 
+/* Responsividade para o header-container */
 @media (max-width: 768px) {
-  #search-input {
+  #header-container {
+    flex-direction: column; /* Empilha os elementos */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    gap: 10px; /* Adiciona espaçamento entre os elementos */
+  }
+
+  #search-container {
     width: 100%; /* O campo de busca ocupa toda a largura */
+    text-align: left; /* Alinha o texto à esquerda */
   }
 
-  #product-list-container {
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(150px, 1fr)
-    ); /* Ajusta o grid para colunas menores */
-    gap: 15px; /* Reduz o espaçamento entre os itens */
+  #search-input {
+    width: 100%; /* Ajusta o campo de busca para ocupar toda a largura */
+  }
+}
+
+/* Responsividade para a div#profile */
+@media (max-width: 768px) {
+  #profile {
+    flex-direction: column; /* Empilha os elementos */
+    align-items: center; /* Centraliza os itens */
+    text-align: center; /* Centraliza o texto */
+    gap: 1em; /* Adiciona espaçamento entre os elementos */
   }
 
-  .product-card {
-    padding: 8px; /* Reduz o padding dos cards */
+  .profile {
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço */
+    padding: 10px; /* Reduz o padding */
   }
 
-  .product_title {
-    font-size: 1em; /* Reduz o tamanho do título */
+  .profile img {
+    width: 80px; /* Reduz o tamanho da imagem */
   }
 
-  .product_price {
-    font-size: 0.9em; /* Reduz o tamanho do preço */
+  .profile_header {
+    width: 100%; /* Ajusta a largura para telas menores */
+    padding: 10px; /* Reduz o padding */
   }
 
-  .buy_button {
-    font-size: 0.9em; /* Reduz o tamanho do botão */
-    padding: 8px; /* Ajusta o padding do botão */
+  .profile_header h1 {
+    font-size: 1.2em; /* Reduz o tamanho da fonte */
   }
 }
 
 @media (max-width: 480px) {
-  header {
-    flex-direction: column; /* Empilha o cabeçalho */
-    text-align: center;
-  }
-
   #profile {
-    flex-direction: column; /* Empilha o perfil */
-    align-items: center;
-  }
-
-  #profile h1 {
-    font-size: 1em;
-  }
-
-  .profile {
-    width: 100%; /* O perfil ocupa toda a largura */
-    padding: 10px;
+    gap: 0.5em; /* Reduz o espaçamento para telas muito pequenas */
   }
 
   .profile img {
-    width: 80px; /* Reduz o tamanho da imagem do perfil */
+    width: 60px; /* Reduz ainda mais o tamanho da imagem */
   }
 
-  #category-menu {
-    padding: 5px;
-  }
-
-  #product-list-container {
-    grid-template-columns: 1fr; /* Apenas uma coluna para itens */
-  }
-
-  .product-card {
-    padding: 5px; /* Reduz ainda mais o padding dos cards */
-  }
-
-  .buy_button {
-    font-size: 0.8em; /* Reduz o tamanho do botão */
-    padding: 5px; /* Ajusta o padding do botão */
+  .profile_header h1 {
+    font-size: 1em; /* Ajusta o tamanho da fonte para telas menores */
   }
 }
 
