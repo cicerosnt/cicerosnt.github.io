@@ -1,1 +1,69 @@
-Hello Word
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de Produtos Afiliados</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="profile">
+        <div class="profile">
+          <img src="https://github.com/cicerosnt.png" alt="User Profile" />
+          <span id="user-name">@cicerosnt</span>
+
+          <p id="user-bio">Produtos e Serviços.</p>
+        </div>
+        <div class="profile_header">
+          <h1>Dicas de Compra que Valem a Pena</h1>
+        </div>
+      </div>
+    </header>
+    <div id="main-container">
+      <aside id="category-menu">
+        <h2 id="category-title">Categorias</h2>
+        <!-- Título acima do menu -->
+        <nav>
+          <ul id="category-filter">
+            <li><button data-category="todos">Todos as categorias</button></li>
+            <li><button data-category="acessorios">Acessorios</button></li>
+            <li><button data-category="monitor">Monitores</button></li>
+          </ul>
+        </nav>
+      </aside>
+      <main id="product-gallery">
+        <div id="header-container">
+          <h2 id="selected-category">Todos os Produtos</h2>
+          <div id="search-container">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Buscar produtos..."
+              aria-label="Buscar produtos"
+            />
+          </div>
+        </div>
+        <div id="product-list-container">
+          <!-- Os produtos serão carregados aqui pelo JavaScript -->
+        </div>
+      </main>
+    </div>
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <h2>Aviso de Transparência*</h2>
+        <p>
+          Os produtos listados nesta página são oferecidos por sites de
+          terceiros. Atuamos como afiliados, o que significa que podemos receber
+          uma comissão por compras realizadas por meio dos links indicados.
+          Informamos que os preços, condições de pagamento e disponibilidade dos
+          produtos são definidos pelos fornecedores e podem sofrer alterações
+          sem aviso prévio. Recomendamos sempre verificar essas informações
+          diretamente no site do vendedor antes de concluir a compra.
+        </p>
+        <button id="close-popup">Entendi</button>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
