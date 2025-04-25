@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900");
 
+:root {
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-strong: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  --color-background-2: #242526;
+}
+
 /* Reset básico */
 body,
 h1,
@@ -20,19 +30,20 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+button,
+input {
   font-family: "Montserrat", sans-serif;
   color: #f4f4f4;
 }
 
 input[type="text"] {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   width: 100%;
   padding: 12px 16px;
   border: 2px solid #e0e0e0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #f4f4f4;
   color: #333;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -61,6 +72,16 @@ body {
 header {
   padding: 10px;
   border-bottom: 1px solid #ddd;
+}
+
+.h1_title {
+  font-size: 2em;
+  text-align: center;
+}
+.h2_title {
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: var(--weight-light);
 }
 
 #profile {
@@ -121,6 +142,9 @@ header {
   border-right: 1px solid #ddd;
   padding: 20px;
 }
+#category-menu > .h2_title {
+  margin-top: 0;
+}
 
 #category-menu ul {
   width: auto;
@@ -128,10 +152,11 @@ header {
   display: flex;
   flex-direction: row;
   gap: 0.5em;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  overflow-y: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
   scrollbar-width: thin;
 }
 #category-menu ul::-webkit-scrollbar {
@@ -147,8 +172,7 @@ header {
 
 #category-menu button {
   width: 100%;
-  padding: 12px 16px;
-  margin-bottom: 12px;
+  padding: 10px 12px;
   border: none;
   background: linear-gradient(135deg, #36ba9b, #4ac29a);
   color: #fff;
@@ -223,7 +247,7 @@ header {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  background-color: #242526;
+  background-color: var(--color-background-2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -234,16 +258,32 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.product-card .img-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 5px;
+
+  background-color: #ffff;
+}
+
 .product-card img {
-  max-width: 100%;
-  height: auto;
+  max-width: 230px;
+  max-height: 230px;
   border-radius: 5px;
+  margin: auto;
+  border: 0;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .product_title {
   font-size: 1.2em;
-  margin: 10px 0;
-  color: #f4f4f4;
+  font-weight: var(--weight-light) !important;
 }
 
 .product_price {
@@ -299,7 +339,7 @@ a:active {
   }
 
   #product-gallery {
-    width: 100%; /* A galeria ocupa toda a largura */
+    width: calc(100% - 20px); /* A galeria ocupa toda a largura */
     padding: 10px;
   }
 }
@@ -350,6 +390,11 @@ a:active {
 }
 
 @media (max-width: 480px) {
+  #category-menu ul {
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
   #category-menu button {
     flex: 1 1 100%; /* Botões ocupam 100% da largura em telas muito pequenas */
   }
