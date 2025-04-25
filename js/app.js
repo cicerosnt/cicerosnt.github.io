@@ -43,7 +43,9 @@ function displayProducts(products) {
     productCard.classList.add("product-card")
     productCard.innerHTML = `
       <a href="${product.affiliateLink}" target="_blank">
+        <div class="img-container">
         <img src="${product.image}" alt="${product.title}">
+        </div>
         <h3 class="product_title">${product.title}</h3>
         <p class="product_price">R$ ${product.price.toFixed(2)}</p>
         <p>${"⭐".repeat(product.ranking)}</p>
@@ -88,4 +90,15 @@ if (!localStorage.getItem("popupShown")) {
 closePopupButton.addEventListener("click", () => {
   popup.classList.add("hidden") // Esconde o popup
   localStorage.setItem("popupShown", "true") // Marca como exibido
+})
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.getElementById("toggle-category-menu")
+  const categoryMenu = document.getElementById("category-menu")
+
+  if (toggleButton) {
+    toggleButton.addEventListener("click", () => {
+      categoryMenu.classList.toggle("active")
+    })
+  }
 })
