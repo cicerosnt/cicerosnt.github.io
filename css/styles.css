@@ -250,6 +250,8 @@ header {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  position: relative;
 }
 
 .product-card:hover {
@@ -283,11 +285,21 @@ header {
 .product_title {
   font-size: 1.2em;
   font-weight: var(--weight-light) !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limita a 3 linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 
 .product_price {
   font-size: 1em;
   color: #36ba9b;
+}
+
+.product_ranking {
+  margin-bottom: 4em;
 }
 
 .buy_button {
@@ -299,6 +311,11 @@ header {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+
+  position: absolute;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
 }
 
 .buy_button:hover {

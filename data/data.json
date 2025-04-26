@@ -1,0 +1,162 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Suporte De Notebook De Alumínio Ajustável Para Notebook De 6 Ângulos Ajustável De Alumínio Dobrável E Ergonômico Para Desktop Portátil Compatível Com Macbook, Ipad, Hp, Dell, Lenovo 10-17 Polegadas",
+      "image": "https://m.media-amazon.com/images/I/61ZqTo-kwpL._AC_SL1500_.jpg",
+      "price": 18,
+      "supplierId": "2",
+      "ranking": 5,
+      "categoryId": "6",
+      "affiliateLink": "https://amzn.to/4jtUFxC",
+      "clicks": 0
+    },
+    {
+      "id": 2,
+      "title": "Suporte De Mesa Notebook 100% Alumínio Apoio Base Ergonômico Regulável 11 A 17 Polegadas no2spy",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_904855-MLA83392587041_032025-O.webp",
+      "price": 22.03,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 6,
+      "affiliateLink": "https://mercadolivre.com/sec/1HrRmE3",
+      "clicks": 0
+    },
+    {
+      "id": 3,
+      "title": "Mouse Pad Gamer 90x40 Escritório Alta Qualidade Preto Liso Isoprene",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_979686-MLA81648204712_012025-O.webp",
+      "price": 39.29,
+      "supplierId": 1,
+      "ranking": 4,
+      "categoryId": 5,
+      "affiliateLink": "https://mercadolivre.com/sec/23AAjsx",
+      "clicks": 0
+    },
+    {
+      "id": 4,
+      "title": "Mouse pad para jogos RGB, UtechSmart Mouse pad grande estendido macio com 14 modos de iluminação, 2 níveis de brilho, mousepads para teclado de computador 800 x 300 mm / 31,5 × 11,8 polegadas ",
+      "image": "https://m.media-amazon.com/images/I/51tUuGl-qkL._AC_SL1500_.jpg",
+      "price": 33.99,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 5,
+      "affiliateLink": "https://amzn.to/3EpaMNK",
+      "clicks": 0
+    },
+    {
+      "id": 5,
+      "title": "Monitor Gamer LG 24MS500-B 24ms Ips Fullhd 100hz Ajuste De Inclinação Negro",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_824267-MLA79575810594_102024-O.webp",
+      "price": 597.83,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 1,
+      "affiliateLink": "https://mercadolivre.com/sec/2GoKbKB",
+      "clicks": 0
+    },
+    {
+      "id": 6,
+      "title": "Samsung T350 - Monitor Gamer, 24\", FHD, 75Hz, HDMI, VGA, Freesync, Preto",
+      "image": "https://m.media-amazon.com/images/I/71fExkr1vWL._AC_SL1500_.jpg",
+      "price": 609.9,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 1,
+      "affiliateLink": "https://amzn.to/4cPZoqB",
+      "clicks": 0
+    },
+    {
+      "id": 7,
+      "title": "Mouse com fio USB Logitech M90 com Design Ambidestro e Facilidade Plug and Play",
+      "image": "https://m.media-amazon.com/images/I/617w9nbQooL._AC_SL1500_.jpg",
+      "price": 33.9,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 4,
+      "affiliateLink": "https://amzn.to/3Erhump",
+      "clicks": 0
+    },
+    {
+      "id": 8,
+      "title": "Mouse Gamer Logitech G G203 Lightsync Rgb Até 8.000 Dpi Preto",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_781312-MLA45385798113_032021-F.webp",
+      "price": 143.87,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 4,
+      "affiliateLink": "https://mercadolivre.com/sec/2DBToZW",
+      "clicks": 0
+    },
+    {
+      "id": 9,
+      "title": "Teclado Multimídia Dell KB216 - em Português",
+      "image": "https://m.media-amazon.com/images/I/31tuxo3GWKL._AC_.jpg",
+      "price": 99,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 4,
+      "affiliateLink": "https://amzn.to/4jpQD9b",
+      "clicks": 0
+    },
+    {
+      "id": 10,
+      "title": "Kit Teclado Gamer Semi Mecanico Led Rgb Mouse Mouse Pad",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_948388-MLB81907242719_012025-F-kit-teclado-gamer-semi-mecanico-led-rgb-mouse-mouse-pad.webp",
+      "price": 78.89,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 4,
+      "affiliateLink": "https://mercadolivre.com/sec/2chCusP",
+      "clicks": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Monitores"
+    },
+    {
+      "id": 2,
+      "name": "Notebook"
+    },
+    {
+      "id": 3,
+      "name": "Desktop"
+    },
+    {
+      "id": 4,
+      "name": "Periféricos"
+    },
+    {
+      "id": 5,
+      "name": "Acessórios "
+    },
+    {
+      "id": 6,
+      "name": "Suporte"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Mercado Livre"
+    },
+    {
+      "id": 2,
+      "name": "Amazon"
+    },
+    {
+      "id": 3,
+      "name": "AliExpress"
+    },
+    {
+      "id": 4,
+      "name": "Shopee"
+    },
+    {
+      "id": 5,
+      "name": "Novo"
+    }
+  ]
+}
