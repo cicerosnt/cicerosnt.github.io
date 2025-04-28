@@ -24,7 +24,7 @@ fetch("/data/data.json")
 
     // Adiciona o botão "Todos as categorias"
     const allCategoriesButton = document.createElement("li")
-    allCategoriesButton.innerHTML = `<button data-category="todos">Todos as categorias</button>`
+    allCategoriesButton.innerHTML = `<button data-category="todos">Tudo</button>`
     categoryFilter.appendChild(allCategoriesButton)
 
     // Filtra as categorias que possuem produtos
@@ -73,10 +73,12 @@ function displayProducts(products) {
         <div class="img-container">
           <img src="${product.image}" alt="${product.title}">
         </div>
-        <h3 class="product_title">${product.title}</h3>
-        <p class="product_price">R$ ${product.price.toFixed(2)}</p>
-        <p class="product_ranking">${"⭐".repeat(product.ranking)}</p>
-        <p class="buy_button">Ver na loja</p>
+        <div class="product_info">
+          <h3 class="product_title">${product.title}</h3>
+          <p class="product_price">R$ ${product.price.toFixed(2)}</p>
+          <p class="product_ranking">${"⭐".repeat(product.ranking)}</p>
+          <button class="buy_button">Ver na loja</button>
+        </div>
       </a>
     `
     productListContainer.appendChild(productCard)
