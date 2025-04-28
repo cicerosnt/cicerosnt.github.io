@@ -5,9 +5,9 @@
       "title": "Suporte De Notebook De Alumínio Ajustável Para Notebook De 6 Ângulos Ajustável De Alumínio Dobrável E Ergonômico Para Desktop Portátil Compatível Com Macbook, Ipad, Hp, Dell, Lenovo 10-17 Polegadas",
       "image": "https://m.media-amazon.com/images/I/61ZqTo-kwpL._AC_SL1500_.jpg",
       "price": 18,
-      "supplierId": "2",
+      "supplierId": 2,
       "ranking": 5,
-      "categoryId": "6",
+      "categoryId": 6,
       "affiliateLink": "https://amzn.to/4jtUFxC",
       "clicks": 0
     },
@@ -109,6 +109,61 @@
       "categoryId": 4,
       "affiliateLink": "https://mercadolivre.com/sec/2chCusP",
       "clicks": 0
+    },
+    {
+      "id": 11,
+      "title": "SSD Crucial BX500 240GB 3D NAND",
+      "image": "https://m.media-amazon.com/images/I/51zhuXxYuRL._AC_SL1080_.jpg",
+      "price": 145.99,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 8,
+      "affiliateLink": "https://amzn.to/4lHEDl4",
+      "clicks": 0
+    },
+    {
+      "id": 12,
+      "title": "Memória Crucial RAM 8GB DDR3 1600 MHz CL11 Laptop CT102464BF160B",
+      "image": "https://m.media-amazon.com/images/I/61xlqnJO7nL._AC_SL1024_.jpg",
+      "price": 109.99,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://amzn.to/42RYJ3A",
+      "clicks": 0
+    },
+    {
+      "id": 13,
+      "title": "SSD 240GB Kingston A400 SA400S37/240g Preto",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_849503-MLU74860040273_032024-F.webp",
+      "price": 157,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 8,
+      "affiliateLink": "https://mercadolivre.com/sec/33vveTx",
+      "clicks": 0
+    },
+    {
+      "id": 14,
+      "title": "Memoria Midgard 8GB (1X8GB) DDR3 SODIMM 1600MHZ CL11 1,35V Para Notebook Laptop",
+      "image": "https://m.media-amazon.com/images/I/715Lij8QU0L._AC_SL1500_.jpg",
+      "price": 88,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://amzn.to/435jEBs",
+      "clicks": 0
+    },
+    {
+      "id": 15,
+      "title": "Memória Ddr3l-1600mhz Para Notebook Kingspec 1,35v",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_690906-MLU73694530745_122023-O.webp",
+      "price": 79,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://mercadolivre.com/sec/1evQyyL",
+      "clicks": 0
     }
   ],
   "categories": [
@@ -135,6 +190,14 @@
     {
       "id": 6,
       "name": "Suporte"
+    },
+    {
+      "id": 7,
+      "name": "Memória"
+    },
+    {
+      "id": 8,
+      "name": "SSD"
     }
   ],
   "suppliers": [
