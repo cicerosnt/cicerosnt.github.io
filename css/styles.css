@@ -8,6 +8,7 @@
   --weight-black: 900;
 
   --color-background-2: #242526;
+  --color-text: #f4f4f4;
 }
 
 /* Reset básico */
@@ -34,7 +35,7 @@ h6,
 button,
 input {
   font-family: "Montserrat", sans-serif;
-  color: #f4f4f4;
+  color: var(--color-text);
 }
 h1 {
   font-weight: var(--weight-light);
@@ -48,7 +49,6 @@ input[type="text"] {
   border: 2px solid var(--color-background-2);
   border-radius: 10px;
   background-color: #4e4c4c;
-  color: #333;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
