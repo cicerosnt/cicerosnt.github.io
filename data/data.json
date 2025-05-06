@@ -2,9 +2,9 @@
   "products": [
     {
       "id": 1,
-      "title": "Suporte De Notebook De Alumínio Ajustável Para Notebook De 6 Ângulos Ajustável De Alumínio Dobrável E Ergonômico Para Desktop Portátil Compatível Com Macbook, Ipad, Hp, Dell, Lenovo 10-17 Polegadas",
+      "title": "Suporte De Notebook De Alumínio Ajustável Para Notebook De 6 Ângulos Ajustável De Alumínio Dobrável E Ergonômico Para Desktop Portátil Compatível Com Macbook, Ipad, Hp, Dell, Lenovo 10-17 Polegadas [R06052025]",
       "image": "https://m.media-amazon.com/images/I/61ZqTo-kwpL._AC_SL1500_.jpg",
-      "price": 18,
+      "price": 23.75,
       "supplierId": 2,
       "ranking": 5,
       "categoryId": 6,
@@ -13,13 +13,13 @@
     },
     {
       "id": 2,
-      "title": "Suporte De Mesa Notebook 100% Alumínio Apoio Base Ergonômico Regulável 11 A 17 Polegadas no2spy",
+      "title": "Suporte Notebook Macbook 12 A 17 Polegadas Mesa Escritorio Ergonômico Em 100% Alumínio Tippi [R06052025]",
       "image": "https://http2.mlstatic.com/D_NQ_NP_904855-MLA83392587041_032025-O.webp",
-      "price": 22.03,
+      "price": 29.88,
       "supplierId": 1,
       "ranking": 5,
       "categoryId": 6,
-      "affiliateLink": "https://mercadolivre.com/sec/1HrRmE3",
+      "affiliateLink": "https://mercadolivre.com/sec/2Wx2Yxh",
       "clicks": 0
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "id": 11,
-      "title": "SSD Crucial BX500 240GB 3D NAND",
+      "title": "SSD Crucial BX500 240GB 3D NAND [R06052025]",
       "image": "https://m.media-amazon.com/images/I/51zhuXxYuRL._AC_SL1080_.jpg",
       "price": 145.99,
       "supplierId": 2,
@@ -134,7 +134,7 @@
     },
     {
       "id": 13,
-      "title": "SSD 240GB Kingston A400 SA400S37/240g Preto",
+      "title": "SSD 240GB Kingston A400 SA400S37/240g [R06052025]",
       "image": "https://http2.mlstatic.com/D_NQ_NP_2X_849503-MLU74860040273_032024-F.webp",
       "price": 157,
       "supplierId": 1,
@@ -156,13 +156,90 @@
     },
     {
       "id": 15,
-      "title": "Memória Ddr3l-1600mhz Para Notebook Kingspec 1,35v",
-      "image": "https://http2.mlstatic.com/D_NQ_NP_690906-MLU73694530745_122023-O.webp",
-      "price": 79,
+      "title": "Memória Freyja 16GB (1X16GB) DDR4 SODIMM 3200MHZ 1,2V para Notebook [R06052025]",
+      "image": "https://m.media-amazon.com/images/I/51TwoIF2VXL._AC_SL1080_.jpg",
+      "price": 269,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://amzn.to/44YMxAx",
+      "clicks": 0
+    },
+    {
+      "id": 16,
+      "title": "Memória Crucial 8GB DDR4 3200Mhz Memória RAM  [R06052025]",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_755329-MLU73213346245_122023-O.webp",
+      "price": 112.99,
       "supplierId": 1,
       "ranking": 5,
       "categoryId": 7,
-      "affiliateLink": "https://mercadolivre.com/sec/1evQyyL",
+      "affiliateLink": "https://mercadolivre.com/sec/1ySr4dt",
+      "clicks": 0
+    },
+    {
+      "id": 17,
+      "title": "Memoria Ram 8gb De Notebook Ddr4 2400mhz Kingston [R06052025]",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_658611-MLB83310596849_032025-F-memoria-ram-8gb-de-notebook-ddr4-2400mhz-kingston-lacrada.webp",
+      "price": 107.99,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://mercadolivre.com/sec/21iiKpp",
+      "clicks": 0
+    },
+    {
+      "id": 18,
+      "title": "Crucial Memória 16GB Single DDR4 3200 MT/S (PC4-25600) CL22 DR X8 Unbuffered SODIMM 260-Pin Memory [R06052025]",
+      "image": "https://m.media-amazon.com/images/I/71oz85Vv6mL._AC_SL1500_.jpg",
+      "price": 268,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://amzn.to/42MfpuC",
+      "clicks": 0
+    },
+    {
+      "id": 19,
+      "title": "Memória Notebook Adata 8GB DDR4 3200 Mhz [R06052025]",
+      "image": "https://m.media-amazon.com/images/I/619I38ZjbDL._AC_SL1000_.jpg",
+      "price": 114.99,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://amzn.to/3GUoiJL",
+      "clicks": 0
+    },
+    {
+      "id": 20,
+      "title": "Memória Notebook Kingston Fury Impact 16GB DDR4 3200 Mhz [R06052025]",
+      "image": "https://m.media-amazon.com/images/I/71ecOJDxBSS._AC_SL1500_.jpg",
+      "price": 239.99,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 7,
+      "affiliateLink": "https://amzn.to/3YZVLsr",
+      "clicks": 0
+    },
+    {
+      "id": 21,
+      "title": "Ssd Kingston A400 480 Gb [R06052025]",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_810073-MLB83311171239_032025-F.webp",
+      "price": 260,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 8,
+      "affiliateLink": "https://mercadolivre.com/sec/1FecRUC",
+      "clicks": 0
+    },
+    {
+      "id": 22,
+      "title": "SD Sandisk Plus, 480GB, SATA, Leitura 535MB/s, Gravação 445MB/s, SDSSDA-480G-G26 [R06052025]",
+      "image": "https://m.media-amazon.com/images/I/514ieS8eIVL._AC_SL1000_.jpg",
+      "price": 259,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 8,
+      "affiliateLink": "https://amzn.to/4jCwgG5",
       "clicks": 0
     }
   ],
