@@ -33,11 +33,13 @@ fetch("/data/data.json")
     )
 
     // Adiciona as categorias dinamicamente
-    categoriesWithProducts.forEach((category) => {
-      const categoryButton = document.createElement("li")
-      categoryButton.innerHTML = `<button data-category="${category.id}">${category.name}</button>`
-      categoryFilter.appendChild(categoryButton)
-    })
+        categoriesWithProducts
+      .sort((a, b) => a.name.localeCompare(b.name)) // Ordena as categorias por nome em ordem alfabética
+      .forEach((category) => {
+        const categoryButton = document.createElement("li");
+        categoryButton.innerHTML = `<button data-category="${category.id}">${category.name}</button>`;
+        categoryFilter.appendChild(categoryButton);
+      });
   })
   .catch((error) => console.error("Erro ao carregar os produtos:", error))
 
@@ -65,7 +67,9 @@ document
 // Função para exibir os produtos na galeria
 function displayProducts(products) {
   productListContainer.innerHTML = "" // Limpa a galeria
-  products.forEach((product) => {
+  products
+  //.sort((a, b) => a.title.localeCompare(b.title))
+  .forEach((product) => {
     const productCard = document.createElement("div")
     productCard.classList.add("product-card")
     productCard.innerHTML = `
@@ -77,7 +81,14 @@ function displayProducts(products) {
           <h3 class="product_title">${product.title}</h3>
           <p class="product_price">R$ ${product.price.toFixed(2)}</p>
           <p class="product_ranking">${"⭐".repeat(product.ranking)}</p>
-          <button class="buy_button">Ver na loja</button>
+          <button class="buy_button">
+            Ver na Loja
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M14 3h7a1 1 0 0 1 1 1v7h-2V5.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+              <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7z" />
+            </svg>
+          </button>
         </div>
       </a>
     `
