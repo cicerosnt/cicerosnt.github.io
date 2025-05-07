@@ -24,7 +24,7 @@ fetch("/data/data.json")
 
     // Adiciona o botão "Todos as categorias"
     const allCategoriesButton = document.createElement("li")
-    allCategoriesButton.innerHTML = `<button class="active" data-category="todos">Tudo</button>`
+    allCategoriesButton.innerHTML = `<button class="active" style="margin-left: 2px" data-category="todos">Tudo</button>`
     categoryFilter.appendChild(allCategoriesButton)
 
     // Filtra as categorias que possuem produtos
