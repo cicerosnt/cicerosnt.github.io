@@ -50,6 +50,11 @@ document
     const button = event.target.closest("button")
     if (!button) return // Ignora cliques fora dos botões
 
+    document.querySelectorAll("#category-filter button").forEach((btn) => {
+      btn.classList.remove("active");
+    });
+    button.classList.add("active");
+
     const category = button.getAttribute("data-category")
     updateCategoryTitle(category) // Atualiza o título da categoria
 
