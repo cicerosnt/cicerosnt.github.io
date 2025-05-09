@@ -329,6 +329,17 @@
       "categoryId": 10,
       "affiliateLink": "https://mercadolivre.com/sec/1pZfPPi",
       "clicks": 0
+    },
+    {
+      "id": 31,
+      "title": "Calça Masculina Sarja Slim",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_637693-MLB84503169303_052025-O-calca-masculina-sarja-slim-elastano-esporte-fino.webp",
+      "price": 69.33,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 10,
+      "affiliateLink": "https://mercadolivre.com/sec/2bEWBLp",
+      "clicks": 0
     }
   ],
   "categories": [
