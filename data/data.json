@@ -241,6 +241,83 @@
       "categoryId": 8,
       "affiliateLink": "https://amzn.to/4jCwgG5",
       "clicks": 0
+    },
+    {
+      "id": 24,
+      "title": "Galaxy Book4 Intel Core i3-1315U, 8GB, 512GB SSD, UHD, 15.6\" Full HD LED, 1.55Kg* [R26052026]",
+      "image": "https://m.media-amazon.com/images/I/51xMgPzrepL._AC_SL1000_.jpg",
+      "price": 3499.9,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 2,
+      "affiliateLink": "https://amzn.to/4kGigeF",
+      "clicks": 0
+    },
+    {
+      "id": 25,
+      "title": "Notebook Dell Inspiron I15 15.6\" Full HD 12ª Core i3 8GB 512GB SSD Windows 11 Preto [R26052025]",
+      "image": "https://m.media-amazon.com/images/I/71epkJC5SxL._AC_SL1000_.jpg",
+      "price": 2812,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 2,
+      "affiliateLink": "https://amzn.to/4kcrE9Z",
+      "clicks": 0
+    },
+    {
+      "id": 26,
+      "title": "Notebook Dell Inspiron 15 Intel Core i5 - 1334U 13 Geração 8GB RAM 512GB SSD Linux Tela 15,6\" Full HD I15-I1300-U30P [R26052025]",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_821054-MLU77424879776_072024-F.webp",
+      "price": 3869,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 2,
+      "affiliateLink": "https://mercadolivre.com/sec/2yzPMsF",
+      "clicks": 0
+    },
+    {
+      "id": 27,
+      "title": "Notebook Asus Vivobook 16 X1605va Intel Core I7 1355u 8gb Ram 512gb Ssd Windows 11 Home Tela 16 Fhd Silver [R26052025]",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_663345-MLA79519829667_092024-F.webp",
+      "price": 3811.54,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 2,
+      "affiliateLink": "https://mercadolivre.com/sec/17c6CkC",
+      "clicks": 0
+    },
+    {
+      "id": 28,
+      "title": "Cooler Duex P/Processador LGA 1150/1151/155/1156 95W",
+      "image": "https://m.media-amazon.com/images/I/51HOon9hJRL._AC_SL1000_.jpg",
+      "price": 15.9,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 9,
+      "affiliateLink": "https://amzn.to/4kujLfi",
+      "clicks": 0
+    },
+    {
+      "id": 29,
+      "title": "Cooler Para Processador Intel Lga 775/115x/1366/1200/1700",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_690572-MLB81280316599_122024-F-cooler-para-processador-intel-lga-775115x136612001700.webp",
+      "price": 26.91,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 9,
+      "affiliateLink": "https://mercadolivre.com/sec/2CpQLdw",
+      "clicks": 0
+    },
+    {
+      "id": 30,
+      "title": "Cooler Intel I3, I5, I7 Original Lga 1156/1155/1150/1151",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_889172-MLB49134353208_022022-O-cooler-intel-i3-i5-i7-original-lga-1156115511501151.webp",
+      "price": 27.9,
+      "supplierId": 1,
+      "ranking": 5,
+      "categoryId": 9,
+      "affiliateLink": "https://mercadolivre.com/sec/2ayczMz",
+      "clicks": 0
     }
   ],
   "categories": [
@@ -278,11 +355,7 @@
     },
     {
       "id": 9,
-      "name": "Acessórios Automóveis"
-    },
-    {
-      "id": 10,
-      "name": "Roupas"
+      "name": "Cooler e Refrigeração"
     }
   ],
   "suppliers": [
