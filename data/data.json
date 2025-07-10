@@ -318,6 +318,17 @@
       "categoryId": 9,
       "affiliateLink": "https://mercadolivre.com/sec/2ayczMz",
       "clicks": 0
+    },
+    {
+      "id": 31,
+      "title": "Fritadeira Sem Óleo Air Fryer 5L, Mondial, Preto/Inox, 1900W, 220V - AFN-50-BI ",
+      "image": "https://m.media-amazon.com/images/I/81DHdkzgECL._AC_SL1500_.jpg",
+      "price": 296,
+      "supplierId": 2,
+      "ranking": 5,
+      "categoryId": 10,
+      "affiliateLink": "https://amzn.to/464dgwm",
+      "clicks": 0
     }
   ],
   "categories": [
@@ -356,6 +367,10 @@
     {
       "id": 9,
       "name": "Cooler e Refrigeração"
+    },
+    {
+      "id": 10,
+      "name": "Cozinha"
     }
   ],
   "suppliers": [
